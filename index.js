@@ -17,11 +17,11 @@ class Circle{
   
   
   set diameter(dia){
-    this._radius=dia/2;
+    this.radius=dia/2;
   } 
   set circumference(cir){
     
-    this._radius=cir/(Math.PI*2);
+    this.radius=cir/(Math.PI*2);
   } 
   set area(ara){
     this.radius=Math.sqrt(ara/Math.PI);
